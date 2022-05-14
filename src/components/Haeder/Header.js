@@ -4,7 +4,6 @@ import {Navbar, Container, Nav} from "react-bootstrap";
 
 const Header = () => {
   
-  
   return(
     <>
       <Navbar>

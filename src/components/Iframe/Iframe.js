@@ -5,13 +5,15 @@ const Iframe = () => {
   
   const iframe = () => {
     return {
-      __html: '<iframe src="./example.html" width="60%" height="330"></iframe>'
+      __html: '<iframe src="./i-frame.html" width="60%" height="600px"></iframe>'
     }
   }
   
-  return(
+  return (
     <>
-      <div style={{textAlign: "center"}}  dangerouslySetInnerHTML={iframe()} />
+      <div className="mb-2" style={{textAlign: "center"}}>
+      </div>
+      <div  style={{textAlign: "center"}} dangerouslySetInnerHTML={iframe()}/>
     </>
   )
 }

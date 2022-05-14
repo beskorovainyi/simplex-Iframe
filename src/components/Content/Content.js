@@ -5,6 +5,7 @@ import FormEmail from "../FormEmail/FormEmail";
 import {Card, Row} from "react-bootstrap";
 
 const Content = () => {
+  
   return (
     <>
       <Row>
